@@ -1,0 +1,14 @@
+{
+  "private": {
+    "links": [
+      { "url": "http://www.google.com" },
+      { "url": "http://www.twitter.com" }
+    ]
+  },
+  "webdev": {
+    "links": [{ "url": "https://developer.mozilla.org/en-US/" }]
+  },
+  "streaming": {
+    "links": [{ "url": "https://twitch.com" }]
+  }
+}
