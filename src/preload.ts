@@ -9,7 +9,11 @@ export default async function (page, session) {
 
   const navigationData = await this.fetch(NAV_DATA)
     .then((r: { json: () => any }) => r.json())
-    .catch((e) => console.error(e));
+    .catch(() => ({
+      private: { links: [] },
+      webdev: { links: [] },
+      streaming: { links: [] },
+    }));
 
   return { navData: navigationData[path.slice(1) || "private"] || {} };
 }
