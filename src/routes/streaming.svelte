@@ -12,10 +12,4 @@
   <title>Streaming Dashboard</title>
 </svelte:head>
 
-<style>
-  h2 {
-    color: red;
-  }
-</style>
-
 <Links data={navData.links || []} />
