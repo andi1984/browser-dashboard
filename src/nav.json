@@ -1,12 +1,12 @@
 {
   "private": {
     "links": [
-      { "url": "http://www.google.com" },
-      { "url": "http://www.twitter.com" }
+      { "label": "Google", "url": "http://www.google.com" },
+      { "label": "Twitter", "url": "http://www.twitter.com" }
     ]
   },
   "webdev": {
-    "links": [{ "url": "https://developer.mozilla.org/en-US/" }]
+    "links": [{ "label": "MDN", "url": "https://developer.mozilla.org/en-US/" }]
   },
   "streaming": {
     "links": [
