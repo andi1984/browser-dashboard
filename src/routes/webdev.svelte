@@ -1,16 +1,15 @@
-<script lang="ts">
-	import navigationData from '../nav.json';
-  import { stores } from '@sapper/app';
-	import Links from '../components/Links.svelte';
-
-	const { page } = stores();
-  const { path } = $page;
-	const navData = (navigationData[path.slice(1)||"private"])||{};
+<script context="module" lang="ts">
+  import preloadFunc from "../preload";
+  export const preload = preloadFunc;
 </script>
 
+<script lang="ts">
+  import Links from "../components/Links.svelte";
+  export let navData;
+</script>
 
 <svelte:head>
   <title>Webdev Dashboard</title>
 </svelte:head>
 
-<Links data={navData.links||[]} />
+<Links data={navData.links || []} />

@@ -9,6 +9,12 @@
     "links": [{ "url": "https://developer.mozilla.org/en-US/" }]
   },
   "streaming": {
-    "links": [{ "url": "https://twitch.com" }]
+    "links": [
+      {
+        "label": "Youtube Studio",
+        "url": "https://studio.youtube.com/channel/UC9yhSlXfpjleDuJV1AGViIg"
+      },
+      { "label": "Twitch", "url": "https://twitch.com" }
+    ]
   }
 }
