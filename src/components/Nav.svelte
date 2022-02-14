@@ -6,6 +6,7 @@
 <nav>
   <ul>
     <NavItem active={segment === undefined} label="Privat" href="." />
+    <NavItem active={segment === "finance"} label="Finance" href="finance" />
     <NavItem active={segment === "webdev"} label="Webdev" href="webdev" />
     <NavItem
       active={segment === "streaming"}
