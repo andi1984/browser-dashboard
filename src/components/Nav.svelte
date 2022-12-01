@@ -6,6 +6,12 @@
 <nav>
   <ul>
     <NavItem active={segment === undefined} label="Privat" href="." />
+    <NavItem active={segment === "mail"} label="Mail" href="mail" />
+    <NavItem
+      active={segment === "fediverse"}
+      label="Fediverse"
+      href="fediverse"
+    />
     <NavItem active={segment === "finance"} label="Finance" href="finance" />
     <NavItem active={segment === "webdev"} label="Webdev" href="webdev" />
     <NavItem

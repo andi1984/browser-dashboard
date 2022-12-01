@@ -11,6 +11,9 @@ export default async function (page, session) {
     .then((r: { json: () => any }) => r.json())
     .catch(() => ({
       private: { links: [] },
+      mail: { links: [] },
+      fediverse: { links: [] },
+      finance: { links: [] },
       webdev: { links: [] },
       streaming: { links: [] },
     }));
